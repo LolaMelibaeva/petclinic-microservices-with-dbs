@@ -15,7 +15,7 @@ chrome_options.add_argument("disable-dev-shm-usage")
 driver = webdriver.Chrome(options=chrome_options)
 # driver = webdriver.Chrome("/Users/home/Desktop/chromedriver")
 # Connect to the application
-APP_IP = os.environ['MASTER_PUBLIC_IP']
+APP_IP = os.environ['3.92.69.192']
 url = "http://"+APP_IP.strip()+":8080/"
 # url = "http://localhost:8080"
 print(url)
